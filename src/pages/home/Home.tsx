@@ -5,7 +5,10 @@ export default function Home() {
     return (
         <>
             <nav>
-                <NavBarHome />
+                <div className="blur">
+                    <NavBarHome />
+
+                </div>
             </nav>
         </>
     )

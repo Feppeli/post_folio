@@ -17,8 +17,13 @@
   margin: 1rem;
   font-size: 1.2rem;
   text-decoration: none;
-  color: #fff;
+  color: #ffffff89;
   font-family: "Roboto", sans-serif;
+}
+
+.links a:hover {
+  color: #fff;
+  transition: 0.5s;
 }
 
 .socialButton {
