@@ -5,6 +5,8 @@ import linkedin from '../../assets/social icons/icons8-linkedin-circundado-60.pn
 import instagram from '../../assets/social icons/icons8-instagram-48.png'
 
 export default function NavBarHome() {
+
+    const text_h1 = "<Tecnologia, Novidade e Inovação em um só lugar/>"
     return (
         <Container className="navBar">
             <Box sx={{}} className="navHeader">
@@ -18,7 +20,7 @@ export default function NavBarHome() {
             </Box>
 
             <Box>
-                <Typography variant='h2' sx={{ pt: 4, color: '#fff', width: '80%', fontWeight: "900", lineHeight: '3.5rem' }}>Tecnologia, Novidade e Inovação em um só lugar</Typography>
+                <Typography variant='h2' sx={{ pt: 4, color: '#fff', width: '80%', fontWeight: "900", lineHeight: '3.5rem' }}>{text_h1}</Typography>
                 <Typography variant='h5' sx={{ fontWeight: 100, mt: 3, color: '#fff', width: "50%", lineHeight: '2rem' }}>O seu manual de bolso sobre programação e tecnologia</Typography>
             </Box>
 
